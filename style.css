@@ -3,7 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+body {
+    background-color: rgb(64, 64, 64);
+}
 img {
     width: 100%;
 }
@@ -22,6 +24,7 @@ img {
 .heading {
     width: 90%;
     margin: 0 auto;
+
 }
 .heading button {
     background-color: #E50914;
@@ -42,7 +45,7 @@ header {
 }
 
 .search {
-    background-image: linear-gradient( to bottom, rgba(0, 0, 0, 0.884), rgba(128, 128, 128, 0.588)), url(./images/heading.jpg);
+    background-image: linear-gradient( to bottom, rgba(0, 0, 0, 0.884), rgba(56, 56, 56, 0.862)), url(./images/heading.jpg);
     background-position: center;
     background-color: cover;
     background-color: bisque;
@@ -99,3 +102,45 @@ header {
 color: white;
 font-size: 20px;
 }
+
+
+section {
+
+background-color: black;
+color: white;
+}
+.around-sec {
+    background-color: black;
+    margin-bottom: 10px;
+}
+.around-sec:first-of-type {
+    margin-top: 10px;
+}
+
+.first-sec, .second-sec, .third-sec, .fourth-sec {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: 0 auto;
+    padding: 70px 45px;
+}
+.first-sec img, .second-sec img, .third-sec img, .fourth-sec img {
+    width: 459px;
+}
+.text-div {
+    padding: 50px;
+    align-items: center;
+    width: 60%;
+    padding-top: 100px;
+}
+.text-div h1 {
+    text-align: center;
+    font-size: 3.125rem;
+}
+.text-div p {
+    font-size: 2rem;
+    padding: 20px 0px 20px 50px;
+}
+/* hr {
+   
+} */
